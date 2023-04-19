@@ -17,10 +17,10 @@ Hypermath is a prototype application designed for performing mathematical comput
 | 3 | `havelHakimi(list)`       |    Checks whether the graph is connected or not. | `havelHakimi([3, 2, 1])` |False|
 | 4 | `polynomialGroup(polynomial, z)`      |    Finds the roots for polynomial rings and fields in $\mathbb{Z}_n$ | `polynomialGroup(x^2 + 4, 10)` |[4,6]|
 ## Development
-This application uses Webpack, Typescript and NPM
--  Execute the command "npm run serve" in the terminal on the client side
+This application uses Webpack, Typescript, Python, Java and NPM
+-  Execute the command `npm run serve` in the terminal on the client side
 - Run the Spring Boot application within a Java IDE of your choice
-- To run Django, enter "python manage.py runserver" command in the terminal.
+- To run Django, enter `python manage.py runserver` command in the terminal.
 
 ## Trivia
 Hypermath was considered as a potential name for Mathematica before its launch in 1988.
