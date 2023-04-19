@@ -9,19 +9,13 @@ Hypermath is a prototype application designed for performing mathematical comput
 - toggle between light mode and dark mode
 - mobile ready 
 
-## Available scripts: 
-```diff
-+ hypermath -version command returns the current version number
-```
-```diff
-+ havelHakimi(list) command checks whether the graph represented by the input list is connected or not. Example: havelHakimi([4, 3, 2, 1]).
-``` 
-```diff
-+ estimateVolume(a, b) command estimates the volume of a hypersphere of dimension a and radius b using Monte Carlo integration. Example: estimateVolume(3,2)
-``` 
-```diff
-+ The polynomialGroup(polynomial, z) command finds the roots for polynomial rings and fields in z. Example: polynomialGroup(x^2 + 4, 10)
-``` 
+## Available commands: 
+| #        | Command           | Description  |  Example  |Output  |
+| ------------- |:-------------:|:-------------:|:-------------:| -----:|
+| 1     | `hypermath -version`| Returns the current version number | `hypermath -version`| 1.x.x
+| 2     | `estimateVolume(a, b)`      |   Estimates the volume of a hypersphere of dimension a and radius b using Monte Carlo integration. | `estimateVolume(3, 2)`|28.29564|
+| 3 | `havelHakimi(list)`       |    Checks whether the graph is connected or not. | `havelHakimi([3, 2, 1])` |False|
+| 4 | `polynomialGroup(polynomial, z)`      |    Finds the roots for polynomial rings and fields in $\mathbb{Z}_n$ | `polynomialGroup(x^2 + 4, 10)` |[4,6]|
 ## Development
 This application uses Webpack, Typescript and NPM
 -  Execute the command "npm run serve" in the terminal on the client side
@@ -30,3 +24,5 @@ This application uses Webpack, Typescript and NPM
 
 ## Trivia
 Hypermath was considered as a potential name for Mathematica before its launch in 1988.
+
+ 
