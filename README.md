@@ -4,6 +4,7 @@ Hypermath is a prototype application designed for performing mathematical comput
 
 ## Features
 -  solve abstract algebra problem
+- Hypermath performs calculations not only in the client-side but also in both Django and Spring Boot.
 - provides error messages in the terminal that the "compiler" is unable to read variables or scripts (NameError, VariableError).
 - toggle between light mode and dark mode
 - mobile ready 
@@ -21,4 +22,11 @@ Hypermath is a prototype application designed for performing mathematical comput
 ```diff
 + The polynomialGroup(polynomial, z) command finds the roots for polynomial rings and fields in z. Example: polynomialGroup(x^2 + 4, 10)
 ``` 
+## Development
+This plugin template uses Typescript and NPM
+-  Execute the command "npm run serve" in the terminal on the client side
+- Run the Spring Boot application within a Java IDE of your choice
+- To run Django, enter "python manage.py runserver" command in the terminal.
 
+## Trivia
+Hypermath was considered as a potential name for Mathematica before its launch in 1988.
