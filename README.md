@@ -1,2 +1,1 @@
-# hypermath-prototype
-A math expression compiler using TypeScript, Django and Spring Web
+![Hero](https://github.com/Liam-hi/hypermath-prototype/blob/master/media/HyperMath-lightmode.png?raw=true)
