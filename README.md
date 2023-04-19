@@ -3,11 +3,11 @@
 Hypermath is a prototype application designed for performing mathematical computations related to abstract algebra. The design and functionality is influenced by the Python IDLE development environment.
 
 ## Features
--  solve abstract algebra problem
+-  solve abstract algebra problem.
 - Hypermath performs calculations not only in the client-side but also in both Django and Spring Boot.
 - provides error messages in the terminal that the "compiler" is unable to read variables or scripts (NameError, VariableError).
-- toggle between light mode and dark mode
-- mobile ready 
+- toggle between light mode and dark mode.
+- mobile ready.
 
 ## Available commands: 
 | #        | Command           | Description  |  Example  |Output  |
