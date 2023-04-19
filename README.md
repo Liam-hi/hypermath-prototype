@@ -23,7 +23,7 @@ Hypermath is a prototype application designed for performing mathematical comput
 + The polynomialGroup(polynomial, z) command finds the roots for polynomial rings and fields in z. Example: polynomialGroup(x^2 + 4, 10)
 ``` 
 ## Development
-This plugin template uses Webpack, Typescript and NPM
+This application template uses Webpack, Typescript and NPM
 -  Execute the command "npm run serve" in the terminal on the client side
 - Run the Spring Boot application within a Java IDE of your choice
 - To run Django, enter "python manage.py runserver" command in the terminal.
